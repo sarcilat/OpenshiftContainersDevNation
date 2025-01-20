@@ -142,7 +142,7 @@ apache-maven-3.9.9/lib/commons-cli.license
 Now is time to move the decompressed maven folder, to the path `/opt/maven`.
 
 ```bash
-mv apache-maven-3.9.9 /opt/maven
+sudo mv apache-maven-3.9.9 /opt/maven
 ```
 
 Create the file `maven.sh` in the path `/etc/profile.d`, excecuting the following command:
